@@ -1,0 +1,10 @@
+[package]
+name = "cpp_rust_test"
+version = "0.1.0"
+
+[lib]
+name = "cpp_rust_test"
+crate-type = ["dylib"]
+
+[dependencies]
+crossbeam-channel = "0.3"
